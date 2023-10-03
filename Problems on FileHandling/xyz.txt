@@ -1,0 +1,28 @@
+		File permissions
+file che 3 users astat.
+1 file owner 
+2 file owner group 
+3 other 
+file s la 3 permission astat
+1 read
+2 write
+3 exicute
+jr aapn tya 3 users la ya tighi permission dilya tr mhnje owner la read,write,exicute same grup la pn 3 permission 
+same other la pn 3 permission dilya.
+tr r,w,x as tya 3 permission ahet tr dennis ritchie yani r mhnje 4, w mhnje 2, x mhnje 1. ase no. dile aata ya tighanchi addition hi 7 yete addition mhnje permission mhnje aapn jyala ha 7 no. deu tyala read,write,exicute as kraychi permission detoy.mhnje mla jr fkt read and write chi permission dyaychiye tr mi 6 as no. deil bcz read,write chya 
+no. chi additon 6 hote.tsch sgli permission deli tr tr 7 no. yeto tr mg aapn owner,group,other la sglya permission
+denar aahot.
+owner 7(r,w,x)
+group 7(r,w,x)
+other 7(r,w,x)
+eg jr mla owner la 3 permission,group la fkt read,other la read and exicute ya permission dyachya ahet tr no. kay
+yeil tr to no. 745 asa yeil. khali discription ahe tyach.
+owner 7(r,w,x)
+group 4(r)
+other 5(r,x)
+mhnun aapn vim 9.c ya program madhe creat chya call la 2nd parameter 0777asa ghetla ahe.
+aani bydefault owner la sglya permission astat bcz tyala jr sglya permission nahi dilya tr lihinar kon file madhe.
+##############~~~~~~~~~~Files che 2 type astat~~~~~~~~####################
+1 regular file (yaat sgla data asto)
+2 special file (yaat fkt directory aste or folder)
+aani .txt,.jpg,.pdf etc ya sglya regular file chya under yetat.

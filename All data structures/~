@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<malloc.h>
+
+
+struct Node
+{
+	int data;
+	struct Node *next;
+};
+
+typedef struct Node NODE;
+typedef struct Node* PNODE;
+typedef struct Node** PPNODE;
+
+int main()
+{
+	PNODE Head = NULL;
+	PNODE Tail = NULL;
+	int iRet = 0;
+
+	InsertFirst(&Head,40);
+}
+void InsertFirst()
+{
+
+}
